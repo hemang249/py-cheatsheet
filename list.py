@@ -46,3 +46,22 @@ print(numbers)
     #len(list)
 print(len(numbers))
 
+# Looping through Lists
+for fruit in fruits:
+    print(fruit)
+
+# Creating Ranged Lists
+    # list(range(start , end , step))
+rangedList = list(range(1,5))
+print(rangedList)
+
+# Max and Min in a list
+    # max(list) , min(list)
+
+print(max(numbers))
+print(min(numbers))
+
+# List Slicing
+    # list[startIndex : endIndex]
+
+print(numbers[0 : 3])

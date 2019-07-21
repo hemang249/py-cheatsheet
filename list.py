@@ -57,11 +57,12 @@ print(rangedList)
 
 # Max and Min in a list
     # max(list) , min(list)
-
 print(max(numbers))
 print(min(numbers))
 
 # List Slicing
-    # list[startIndex : endIndex]
-
+    # list[startIndex : endIndex+1]
 print(numbers[0 : 3])
+
+
+

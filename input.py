@@ -4,7 +4,7 @@
 name = input("Enter Your Name : ")
 print( 'Hello '+ name)
 
-# Reading Numerical Inputs
+# Reading Numerical Inputs via Type Casting
 age = int( input('How Old are you : ') )
 
 if age >= 18:

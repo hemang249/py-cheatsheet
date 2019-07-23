@@ -29,6 +29,23 @@ del myInfo['Height']
 print(myInfo)
 
 # Looping through A dictionary
-
 for key , value in myInfo.items():
     print("key : " + key + " Value : " + value)
+
+# Sorted Dictionaries
+    # sorted(dictionary.values()) or sort(dictionary.keys())
+print(sorted(myInfo.keys()))
+print(sorted(myInfo.values()))
+
+# dictionary inside a dictionary
+user = {
+    'name' : {
+        'fName' : 'Hemang',
+        'mName' : 'Hitesh',
+        'lName' : 'Bhogayata'
+    },
+    'age' : 18,
+    'email' : 'hemang@example.com'
+}
+
+print(user)
